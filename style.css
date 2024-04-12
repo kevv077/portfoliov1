@@ -1,0 +1,247 @@
+body{font-family: 'Onest'; margin: 0; padding: 0; background-color: #EDF2F4;}
+
+/* Navegation Bar */
+
+.logo{
+    font-weight: 600;
+    padding-left: 10px;
+    cursor: pointer;}
+.logo:hover{
+    color: #0f86e0;
+    transition: 400ms;}
+.navegationMenu{
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    display: flex;}
+.navegationMenu ul{
+    display: flex;}
+.navegationMenu li{
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0.1rem;}
+.navegationMenu a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;}
+.navegationMenu ul li a:hover{
+ color: #0f86e0;
+ transition: 400ms;}
+
+/* Personal Space */
+.personalDivision h1{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 120px;}
+.personalDivision h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 60px;}
+.personalDivision h3{
+    padding-left: 50px;
+    text-decoration: underline;}
+.skillSection{
+    padding-top: 20px;
+    align-items: center;
+    margin: 0 auto;}
+.skillSection ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        list-style: none;}
+
+/* About Section */
+
+#aboutSection{
+    background-color: #EDF2F4;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;}
+#aboutSection h2{
+    margin-top: 70px;
+    margin-bottom: 70px;}
+#aboutSection p{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1rem;}
+
+/* Project Section */
+#projectSection{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1rem;}
+#projectSection h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;}
+.container {  
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "project1 project2 project3"
+      "project4 project5 project6"
+      ". . .";}
+  
+  .project1 { grid-area: project1; 
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 200px;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);}
+  
+  .project2 { grid-area: project2; 
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 100%;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);}
+  .project3 { grid-area: project3; 
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 100%;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);}
+  .project4 { grid-area: project4; 
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 100%;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);}
+  .project5 { grid-area: project5;
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 100%;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22); }
+  .project6 { grid-area: project6; 
+    background-color: #EDF2F4;
+    width: 100%;
+    height: 100%;
+    border: #1919195f 1px solid;
+    box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px -3px 25px -6px rgba(0,0,0,0.22);}
+
+/* Contact Section */
+#contactSection{
+    background-color: #EDF2F4;
+    margin: 0 auto;
+}
+#contactSection h2{
+    margin-bottom: 1.45rem;
+    margin-top: 10px;}
+#contactSection form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#contactSection form input{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 50%;
+        height: 20px;
+    }
+#contactSection textarea{
+        resize: none;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        height: 200px;
+    }
+    
+#contactSection button{
+        width: 100px;
+        height: 40px;
+    }
+
+/*Footer section*/
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(148, 147, 147);
+    height: 70px;}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* Navegation Bar */
+    .navegationMenu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navegationMenu ul {
+        margin-top: 1rem;
+    }
+    .navegationMenu li {
+        margin: 0.5rem 0;
+    }
+    .navegationMenu a {
+        padding: 10px;
+    }	
+
+    /* Personal Space */
+    .personalDivision h1 {
+        font-size: 40px;
+    }
+    .personalDivision h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    /* About Section */
+    #aboutSection {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    /* Project Section */
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "project1"
+            "project2"
+            "project3"
+            "project4"
+            "project5"
+            "project6";
+    }
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+        height: 150px;
+    }
+    /* Contact Section */
+    #contactSection form input,
+    #contactSection textarea {
+        width: 80%;
+    }
+}
